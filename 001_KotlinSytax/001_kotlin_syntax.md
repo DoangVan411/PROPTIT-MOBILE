@@ -86,7 +86,19 @@ Ví dụ:
     ```java
     5
     ```
-
+### Mảng
+Cú pháp:
+```java
+    var(val) tên_mảng: <kiểu dữ liệu mảng> = typeArrayOf(giá trị 1, giá trị 2,…, giá trị n)
+hoặc:
+    var(val) tên_mảng = arrayOf<kiểu dữ liệu>(giá trị 1, giá trị 2, ...)
+```
+Ví dụ:
+```
+    var arr: IntArray = intArrayOf(1, 2, 3, 4, 5)
+    var arr: CharArray= charArrayOf('a','b','c')
+    var arr = arrayOf<Int>(1, 2, 3, 4, 5)
+```
 ## Các toán tử 
 Trong Kotlin, ta có thể sử dụng các Operator thuần túy và cũng có thể dùng bằng các phương thức.
 
@@ -177,20 +189,32 @@ while(expression)
   statement
 }
 ```
-## Các collections trong Kotlin
-### Mảng
-Cú pháp:
+### Repeat
 ```java
-    var(val) tên_mảng: <kiểu dữ liệu mảng> = typeArrayOf(giá trị 1, giá trị 2,…, giá trị n)
-hoặc:
-    var(val) tên_mảng = arrayOf<kiểu dữ liệu>(giá trị 1, giá trị 2, ...)
+// greets three times
+repeat(3) {
+    println("Hello")
+}
+
+// greets with an index
+repeat(3) { index ->
+    println("Hello with index $index")
+}
+
+repeat(0) {
+    error("We should not get here!")
+}
 ```
-Ví dụ:
+Kết quả
+```java
+Hello
+Hello
+Hello with index 0
+Hello with index 1
+Hello with index 2
 ```
-    var arr: IntArray = intArrayOf(1, 2, 3, 4, 5)
-    var arr: CharArray= charArrayOf('a','b','c')
-    var arr = arrayOf<Int>(1, 2, 3, 4, 5)
-```
+## Các collections trong Kotlin
+
 ### List
 - Có 2 loại List đó là List (chỉ đọc) và MutableList (có thể chỉnh sửa) triển khai List
 - Để tạo một `List` ta sử dụng hàm `listOf()`. Ví dụ: `val list = listOf<String>("Hello", "hello", "hehe")`
