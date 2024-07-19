@@ -1,5 +1,29 @@
 # KOTLIN SYNTAX 
 
+<!-- TOC -->
+* [KOTLIN SYNTAX](#kotlin-syntax)
+  * [Biến và kiểu dữ liệu](#bin-v-kiu-d-liu)
+    * [Nhập xuất trong Kotlin](#nhp-xut-trong-kotlin)
+    * [Các kiểu dữ liệu](#cc-kiu-d-liu)
+    * [Khai báo biến](#khai-bo-bin)
+    * [Ép kiểu](#p-kiu)
+    * [Mảng](#mng)
+  * [Các toán tử](#cc-ton-t)
+  * [Câu lệnh rẽ nhánh](#cu-lnh-r-nhnh)
+    * [Câu lệnh If - Else](#cu-lnh-if---else)
+    * [Câu lệnh When](#cu-lnh-when)
+  * [Vòng lặp](#vng-lp)
+    * [Vòng lặp for](#vng-lp-for)
+    * [Vòng lặp while](#vng-lp-while)
+    * [Repeat](#repeat)
+  * [Các collections trong Kotlin](#cc-collections-trong-kotlin)
+    * [List](#list)
+    * [Set](#set)
+    * [Map](#map)
+  * [Null Safety](#null-safety)
+    * [Safe calls](#safe-calls)
+<!-- TOC -->
+
 ## Biến và kiểu dữ liệu 
 ### Nhập xuất trong Kotlin
 - Nhập dữ liệu từ bàn phím dùng hàm `readln()` hoặc `readLine()`
