@@ -1,4 +1,33 @@
 # KOTLIN CLASS
+<!-- TOC -->
+* [KOTLIN CLASS](#kotlin-class)
+  * [Visibility Modifiers](#visibility-modifiers)
+  * [Constructor](#constructor)
+    * [Các hàm khởi tạo phụ (Secondary constructors)](#cc-hm-khi-to-ph--secondary-constructors-)
+  * [Từ khóa `init`](#t-kha-init)
+    * [Khởi tạo đối tượng của class](#khi-to-i-tng-ca-class)
+  * [Class Members](#class-members)
+    * [Hàm](#hm)
+      * [NAMED ARGUMENTS](#named-arguments)
+    * [Single-expression functions](#single-expression-functions)
+    * [Variable number of arguments (varargs) - Truyền các tham số với số lượng biến đổi](#variable-number-of-arguments--varargs----truyn-cc-tham-s-vi-s-lng-bin-i)
+    * [Infix function](#infix-function)
+    * [Hàm cục bộ (Local function)](#hm-cc-b--local-function-)
+  * [Object](#object)
+    * [Khai báo Object](#khai-bo-object)
+    * [Companion objects](#companion-objects)
+  * [Special class](#special-class)
+    * [Data class](#data-class)
+      * [Các quy tắc để tạo data classes](#cc-quy-tc--to-data-classes)
+      * [Tạo ra một đối tượng của lớp Person:](#to-ra-mt-i-tng-ca-lp-person-)
+      * [In ra nội dung của đối tượng](#in-ra-ni-dung-ca-i-tng)
+      * [Sao chép đối tượng](#sao-chp-i-tng)
+      * [Visibility Modifiers](#visibility-modifiers)
+      * [Destructuring Declarations](#destructuring-declarations)
+      * [Một số data classes được xây dựng sẵn](#mt-s-data-classes-c-xy-dng-sn)
+    * [Enum class](#enum-class)
+    * [Sealed class](#sealed-class)
+<!-- TOC -->
 ## Visibility Modifiers
 Có 4 visibility modifiers trong kotlin: private, protected, internal và public
 

@@ -1,4 +1,24 @@
 # TÍNH CHẤT CỦA OOP TRONG KOTLIN
+
+<!-- TOC -->
+* [TÍNH CHẤT CỦA OOP TRONG KOTLIN](#tnh-cht-ca-oop-trong-kotlin)
+  * [Encapsulation](#encapsulation)
+  * [Inheritance](#inheritance)
+    * [Overriding methods](#overriding-methods)
+    * [Overriding properties](#overriding-properties)
+    * [Calling the superclass implementation](#calling-the-superclass-implementation)
+  * [Polymorphism](#polymorphism)
+    * [Đa hình trong compile-time](#a-hnh-trong-compile-time)
+    * [Runtime polymorphism](#runtime-polymorphism)
+  * [Abstract](#abstract)
+    * [Abstract class](#abstract-class)
+    * [Interface](#interface)
+    * [Resolving overriding conflicts](#resolving-overriding-conflicts)
+  * [Backing field](#backing-field)
+    * [Getter/setter](#gettersetter)
+    * [Backing field](#backing-field)
+<!-- TOC -->
+
 ## Encapsulation
 Đóng gói liên quan đến việc đóng gói dữ liệu và các phương thức hoạt động trên dữ liệu đó trong một class.
 
