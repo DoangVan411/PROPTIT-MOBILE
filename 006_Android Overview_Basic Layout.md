@@ -12,6 +12,7 @@ Hiện Android là một thương hiệu của Google. Có khả năng tùy bi�
 Sơ đồ kiến trúc của hệ điều hành Android:
 
 ![](imgs/cấu trúc hdh.png)
+
 Tóm tắt về các tầng của kiến trúc này như sau (từ trên xuống nhé):
 
 - Tầng Applications: Là tầng chứa các ứng dụng Danh bạ, Gọi điện, Trình duyệt, Nghe nhạc,… các ứng dụng này thường mua máy về chúng ta đã có sẵn rồi.
