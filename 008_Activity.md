@@ -39,7 +39,7 @@ Khi mà người dùng nhấn vào một icon app nào đó trên màn hình ch�
 
 Trong Task của mỗi ứng dụng sẽ chứa đựng thông tin về Back Stack. Chính Back Stack này sẽ nói cho hệ thống biết nên hiển thị Activity nào của ứng dụng.
 #### Back Stack
-Back Stack hoạt động như cấu trúc dữ liệu stack. Back Stack chứa các Activity, việc hệ thống quản lý xem một Activity nào được hiển thị, và Activity nào phải nhường chỗ cho Activity khác, đều chỉ dựa vào cái ngăn chứa này.
+Back Stack chứa các Activity, việc hệ thống quản lý xem một Activity nào được hiển thị, và Activity nào phải nhường chỗ cho Activity khác, đều chỉ dựa vào cái ngăn chứa này.
 
 ### Intent
 Intent trong Android là những object tin nhắn không đồng bộ mà bạn có thể sử dụng để yêu cầu hành động từ các thành phần Android khác. Bên cạnh đó nó cho phép bạn tương tác với các thành phần từ các ứng dụng tương tự cũng như với các thành phần do các ứng dụng khác đóng góp. Ví dụ: một Activity có thể bắt đầu một Activity bên ngoài để chụp ảnh.
@@ -126,6 +126,10 @@ Có thể nói, truyền nhận dữ liệu bằng Extra là cách dễ nhất.
         val value3 = intent.getBooleanExtra("Key_3", false)
     }
     ```
+#### Dùng Bundle
+Nếu như Extra trên kia sẽ “xé lẻ” dữ liệu ra và gởi theo từng dòng. Thì Bundle sẽ giúp bạn “đóng gói” dữ liệu lại và gởi nguyên kiện.
+
+
 ## Context
 Context là thành phần trong ứng dụng android cung cấp quyền truy cập thông tin về các trạng thái của ứng dụng đó. Nó cung cấp các Activities, Fragments và Services truy cập tới các file tài nguyên, hình ảnh, theme, style và các file nằm ngoài ứng dụng. Nó cũng cho phép truy cập vào các thành phần chính của Android như layout, keyboard và tìm kiếm các content providers.
 
@@ -140,7 +144,7 @@ Có 2 loại Context trong Android:
 
 Tổng thể của hệ thống phân cấp ứng dụng như sau:
 
-![img.png](imgs/hệ thống phân cấp ứng dụng.png)
+![](imgs/hệ thống phân cấp ứng dụng.png)
 
 Có thể thấy rằng trong `Sample Application`, Context gần nhất là **Application Context**. Trong `Activity1` và `Activity2` có cả **Activity Context** và **Application Context**, Context gần nhất với cả hai Activity là **Activity Context** của chúng.
 
