@@ -223,7 +223,7 @@ Cấu trúc HTTP response gần giống với HTTP request, chỉ khác nhau là
 - **Status-Code**: mã kết quả trả về.
 - **Reason-Phrase**: mô tả về Status-Code.
 
-![img.png](http_response.png)
+![img.png](imgs/http_response.png)
 
 #### HTTP Status Codes
 Một số loại Status-Code thông dụng mà server trả về cho client như sau:
