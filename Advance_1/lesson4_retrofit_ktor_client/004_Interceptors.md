@@ -57,9 +57,9 @@ Interceptors hoạt động rất giống với nhân viên an ninh sân bay tro
 
 ### Sự khác nhau giữa Application Interceptors và Network Interceptors
 
-![img.png](imgs/Application Interceptors và Network Interceptors.png)
+![](Application%20Interceptors%20và%20Network%20Interceptors.png)
 
-![img.png](imgs/img_Application Interceptors và Network Interceptors.png)
+![](img_Application%20Interceptors%20và%20Network%20Interceptors.png)
 
 ### Implement Interceptor
 Chúng ta chỉ cần phải implement interface `Interceptor` và override lại method `intercept()` như được triển khai dưới đây. Cả 2 loại Interceptor là Application vs Network Interceptor thì được implement bởi cùng một interface.
@@ -192,7 +192,7 @@ User Refresh Token là thông tin cần để lấy User Access Token mới tron
 
 User Refresh Token sẽ có thời gian hiệu lực tối đa là 30 ngày (tức 720 giờ) và Refresh Token mới sẽ kế thừa thời gian hiệu lực của Refresh Token dùng để tạo ra nó. Trong trường hợp Refresh Token hết hạn, bạn phải thực hiện lại bước yêu cầu user cấp quyền cho Ứng dụng
 
-![img.png](imgs/refresh_token.png)
+![](refresh_token.png)
 
 ### Bearer Token
 Khi Access Token được truyền trong phần Authorization Header của HTTP request với từ khóa Bearer, nó được gọi là Bearer Token.
