@@ -82,13 +82,13 @@ Blocking và Non-Blocking chủ yếu được đề cập khi muốn miêu tả
 - Normal function:
 Thread phải chạy hết function A rồi mới đến function B
 
-![img.png](imgs/normal_func.png)
+![img.png](normal_func.png)
 
 - Suspend function:
 
 Suspend function có khả năng ngừng hay gián đoạn việc thực thi một lát (trạng thái ngừng là trạng thái suspend) và có thể tiếp tục thực thi lại khi cần thiết.
 
-![img.png](imgs/suspend_func.png)
+![img.png](suspend_func.png)
 
 FunctionA bị gián đoạn để functionB chạy và sau khi functionB chạy xong thì function A tiếp tục chạy tiếp.
 
@@ -262,4 +262,4 @@ runBlocking {
 }
 ```
 #### So sánh `launch` và `async`:
-![img.png](imgs/so sánh launch và async.png)
+![img.png](so%20sánh%20launch%20và%20async.png)

@@ -18,7 +18,7 @@ Có 3 thực thể tham gia vào dòng dữ liệu:
 - Thực thể trung gian (intermediary, nếu có) có thể sửa đổi từng giá trị được phát vào dòng dữ liệu hoặc sửa đổi chính dòng dữ liệu.
 - Thực thể tiêu thụ (consumer) sử dụng các giá trị trong dòng dữ liệu.
 
-![flow.png](imgs/flow.png)
+![flow.png](flow.png)
 
 Trong kiến trúc Android, mỗi lớp thường đảm nhiệm một vai trò nhất định:
 - Repository: `Producer`
@@ -442,7 +442,7 @@ Một hot flow (luồng nóng) phát dữ liệu ngay cả khi không có collec
 
 ### StateFlow
 
-![img.png](imgs/stateflow.png)
+![img.png](stateflow.png)
 
 `StateFlow` là một hot flow đại diện cho một trạng thái, chỉ giữ một giá trị duy nhất tại một thời điểm. Nó là một `conflated flow`, nghĩa là khi có giá trị mới được phát, giá trị mới nhất sẽ được lưu giữ và ngay lập tức phát cho các `collector` mới.
 
@@ -508,7 +508,7 @@ class FavoriteArticlesFragment : Fragment(R.layout.fragment_favorite_articles) {
 ```
 ### SharedFlow
 
-![img.png](imgs/sharedflow.png)
+![img.png](sharedflow.png)
 
 `SharedFlow` là một hot flow có thể có nhiều `collector`. Nó có thể phát giá trị mà không phụ thuộc vào việc có collector hay không, và nhiều collector có thể thu thập cùng một giá trị từ flow.
 
@@ -563,7 +563,7 @@ class ArticleNotificationFragment : Fragment(R.layout.fragment_article_notificat
 
 So sánh `StateFlow` và `SharedFlow`:
 
-![img.png](imgs/so sánh 2 loại hot flow.png)
+![img.png](so%20sánh%202%20loại%20hot%20flow.png)
 
 ## So sánh Flow với LiveData
 ### LiveData

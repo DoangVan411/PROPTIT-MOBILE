@@ -3,7 +3,7 @@
 ### Mô hình Client - Server
 Mô hình Client Server là mô hình mạng máy tính trong đó các máy tính con được đóng vai trò như một máy khách, chúng làm nhiệm vụ gửi yêu cầu đến các máy chủ. Để máy chủ xử lý yêu cầu và trả kết quả về cho máy khách đó.
 
-![img.png](imgs/client_server.png)
+![img.png](client_server.png)
 
 #### Nguyên tắc hoạt động
 Trong mô hình Client Server, server chấp nhận tất cả các yêu cầu hợp lệ từ mọi nơi khác nhau trên Internet, sau đó trả kết quả về máy tính đã gửi yêu cầu đó
@@ -78,7 +78,7 @@ Nguyên lý hoạt động của DNS dựa trên mô hình phân tán và thực
 ### URI
 **URI (Uniform Resource Identifier)**, là một khái niệm quan trọng trong lĩnh vực công nghệ thông tin và truyền thông. URI là một chuỗi ký tự dùng để xác định một tài nguyên trên mạng. Nghĩa là bất kỳ tài nguyên nào, từ trang web, tài liệu, hình ảnh cho đến dịch vụ trực tuyến, đều có thể được xác định thông qua URI.
 
-![img.png](imgs/uri.png)
+![img.png](uri.png)
 
 URI được sử dụng rộng rãi trong việc xác định các tài nguyên trên Internet. Một URI thường bao gồm ba phần chính gồm giao thức (như `HTTP, HTTPS`), tên miền (như `example.com`) và đường dẫn (như `/path/to/resource`). Ví dụ, trong URI "https://www.example.com/index.html", "https" là giao thức, "www.example.com" là tên miền và "/index.html" là đường dẫn.
 
@@ -88,7 +88,7 @@ Tổng quát lại, URI sẽ bao gồm hai tập nhỏ hơn là URL và URN. URI
 
 ### Sự khác nhau giữa URL và URI
 
-![img.png](imgs/url_vs_uri.png)
+![img.png](url_vs_uri.png)
 
 | URI                                                                            | URL |
 |--------------------------------------------------------------------------------|-----|
@@ -171,7 +171,7 @@ Ví dụ:
   - Lấy thông tin chi tiết của 1 người dùng (dựa trên id): `https://api.example.com/v1/users/123`. Phương thức HTTP: `GET`
   - Tạo mới một người dùng: `https://api.example.com/v1/users`. Phương thức HTTP: `POST`
 
-![img.png](imgs/endpoint.png)
+![img.png](endpoint.png)
 
 #### Query parameter
 **Query parameter** là một cách để truyền thông tin tới API một cách linh hoạt và đơn giản. Chúng được thêm vào cuối URL endpoint dưới dạng một chuỗi các key-value.
@@ -198,7 +198,7 @@ Request cụ thể:
 ### HTTP Request
 HTTP request là thông tin được gửi từ client lên server, để yêu cầu server tìm hoặc xử lý một số thông tin, dữ liệu mà client muốn. HTTP request có thể là một file text dưới dạng XML hoặc Json mà cả hai đều có thể hiểu được.
 
-![img.png](imgs/http_request.png)
+![img.png](http_request.png)
 
 - Bắt đầu của HTTP Request sẽ là dòng Request-Line bao gồm 3 thông tin đó là:
 
@@ -214,7 +214,7 @@ HTTP request là thông tin được gửi từ client lên server, để yêu c
   - **User-Agent**: thông tin về user agent của người dùng.
 - **Body**:
 
-  ![img.png](imgs/http_body.png)  
+  ![img.png](http_body.png)  
 
 #### HTTP Response
 Cấu trúc HTTP response gần giống với HTTP request, chỉ khác nhau là thay vì Request-Line, thì HTTP có response có Status-Line. Và giống như Request-Line, Status-Line cũng có ba phần như sau:
@@ -223,7 +223,7 @@ Cấu trúc HTTP response gần giống với HTTP request, chỉ khác nhau là
 - **Status-Code**: mã kết quả trả về.
 - **Reason-Phrase**: mô tả về Status-Code.
 
-![img.png](imgs/http_response.png)
+![img.png](http_response.png)
 
 #### HTTP Status Codes
 Một số loại Status-Code thông dụng mà server trả về cho client như sau:
@@ -258,7 +258,7 @@ Một số loại Status-Code thông dụng mà server trả về cho client nh�
 ### JSON 
 JSON là viết tắt của JavaScript Object Notation, là một kiểu định dạng dữ liệu tuân theo một quy luật nhất định mà hầu hết các ngôn ngữ lập trình hiện nay đều có thể đọc được. JSON là một tiêu chuẩn mở để trao đổi dữ liệu trên web.
 
-![img.png](imgs/xml.png)
+![img.png](xml.png)
 
 Định dạng JSON sử dụng các cặp key – value để dữ liệu sử dụng. Nó hỗ trợ các cấu trúc dữ liệu như đối tượng và mảng.
 - Chuỗi JSON được bao lại bởi dấu ngoặc nhọn {}
