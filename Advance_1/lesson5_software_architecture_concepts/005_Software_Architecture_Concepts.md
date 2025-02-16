@@ -346,6 +346,7 @@ Thông thường thì một ứng dụng của bạn có thể có tùy ý số 
 - **Inner**: Business logic layer: tương tự như trên.
 
 Ví dụ: project `MovieDB`
+
 ![img.png](các lớp clean architecture ví dụ.png)
 
 - **Package presentation(Outer)**: nó chứa UI, Network, Storage, ... UI là nơi bạn có thể đặt các Activity, Fragment hay các đoạn code có liên quan tới user interface. Storage - Database specific code được implements các Interactors interface để thực hiện truy cập dữ liệu và lưu trữ dữ liệu. Ví dụ như ContentProviders hay DBFlow. Network: gồm những code liên quan tới mạng như là Retrofit:
