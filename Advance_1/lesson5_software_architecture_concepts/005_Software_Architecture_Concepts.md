@@ -184,7 +184,7 @@ Nguyên tắc hoạt động của DI:
 - Việc khởi tạo các module cấp thấp sẽ do DI Container/ IoC Container thực hiện.
 - Việc module nào gắn với interface nào sẽ được config trong file properties, trong file XML DI cung cấp cho một đối tượng các thể hiện phụ thuộc (dependencies) của nó từ bên ngoài truyền vào mà không phải khởi tạo trực tiếp từ trong class sử dụng.
 
-![img.png](thành phần của di.png)
+![](thành phần của di.png)
 
 Các thành phần tham gia Dependency Injection Pattern:
 
